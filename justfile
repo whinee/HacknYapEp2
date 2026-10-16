@@ -16,3 +16,7 @@ build-hack:
 
 watch-hack:
 	npx marp --watch hack-deck.md --preview
+
+build:
+	just build-talk
+	just build-hack
